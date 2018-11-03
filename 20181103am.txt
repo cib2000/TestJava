@@ -37,4 +37,18 @@ git status 	#查看更新、加载、提交情况
 	git push
 	
 
+学习Git的使用
+question		answer
+why？
+what？
+how？
+
+http://www.runoob.com/git/git-tutorial.html
+
+https://git-scm.com/book/zh/v2
+
+
+
+
+
 
