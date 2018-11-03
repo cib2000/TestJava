@@ -1,0 +1,40 @@
+日期：2018.11.3
+作者：
+主题：使用git保存项目
+步骤
+1.创建仓库
+https://github.com/cib2000/TestJava.git
+
+2.创建本地文件夹
+
+3.打开git bash
+
+4.克隆远程仓库
+git clone https://github.com/cib2000/TestJava.git
+
+5.进入本地仓库所在工作区
+pwd  		#查看当前路径
+cd  TestJava
+ls		#列出当前路径下的文件
+ls   -l
+ls   -a
+ls   -la
+
+6.在本地仓库所在工作区创建项目
+
+7.上传到远程仓库
+git status 	#查看更新、加载、提交情况
+	a.加载到本地缓存
+	git add  .  #将当前工作区所有文件加载到缓存
+	git add 需上传的文件所在路径/需上传的文件名
+#  .  表示当前目录，在linux下是隐藏文件的第一个字符
+
+	b.提交到本地仓库
+	git commit -m  "本地提交的详细说明"
+
+
+	c.推送到远程仓库
+	git push
+	
+
+
